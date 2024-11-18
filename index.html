@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> server1 </title>    
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_468e3316d50bbb48a17e714d8ca8e917 {
+                #map_06fc703009f0eee656fb5bc1e72927ec {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_468e3316d50bbb48a17e714d8ca8e917" ></div>
+            <div class="folium-map" id="map_06fc703009f0eee656fb5bc1e72927ec" ></div>
         
 </body>
 <script>
     
     
-            var map_468e3316d50bbb48a17e714d8ca8e917 = L.map(
-                "map_468e3316d50bbb48a17e714d8ca8e917",
+            var map_06fc703009f0eee656fb5bc1e72927ec = L.map(
+                "map_06fc703009f0eee656fb5bc1e72927ec",
                 {
                     center: [37.583587, 126.986874],
                     crs: L.CRS.EPSG3857,
@@ -60,48 +60,40 @@
 
         
     
-            var tile_layer_8c025782ed226cf0550817f2328dd7aa = L.tileLayer(
+            var tile_layer_db4d128460be441f452f718b082f0c83 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_8c025782ed226cf0550817f2328dd7aa.addTo(map_468e3316d50bbb48a17e714d8ca8e917);
+            tile_layer_db4d128460be441f452f718b082f0c83.addTo(map_06fc703009f0eee656fb5bc1e72927ec);
         
     
-            var marker_7881ad3ab364752f3dd20b75ed6c98c3 = L.marker(
-                [37.579472, 126.977048],
+            var marker_345850f9eaba42d15835849f86c774a2 = L.marker(
+                [37.583587, 126.986874],
                 {}
-            ).addTo(map_468e3316d50bbb48a17e714d8ca8e917);
+            ).addTo(map_06fc703009f0eee656fb5bc1e72927ec);
         
     
-            var icon_c7de95e85c6e58dedf8228eebc735f1f = L.AwesomeMarkers.icon(
+            var icon_bb15c4c3448941df76b662998b106512 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "green", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_7881ad3ab364752f3dd20b75ed6c98c3.setIcon(icon_c7de95e85c6e58dedf8228eebc735f1f);
+            marker_345850f9eaba42d15835849f86c774a2.setIcon(icon_bb15c4c3448941df76b662998b106512);
         
     
-        var popup_42940b1b43082134af39bebd46e7bc96 = L.popup({"maxWidth": "100%"});
+        var popup_0aa03246932178b496f85bf8e363d88b = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_63952c37f988cb05a753c8049c7b874f = $(`<div id="html_63952c37f988cb05a753c8049c7b874f" style="width: 100.0%; height: 100.0%;">choongang high school</div>`)[0];
-                popup_42940b1b43082134af39bebd46e7bc96.setContent(html_63952c37f988cb05a753c8049c7b874f);
+                var html_a473c9f4990a9bbd2722da938fef8099 = $(`<div id="html_a473c9f4990a9bbd2722da938fef8099" style="width: 100.0%; height: 100.0%;">choongang high school</div>`)[0];
+                popup_0aa03246932178b496f85bf8e363d88b.setContent(html_a473c9f4990a9bbd2722da938fef8099);
             
         
 
-        marker_7881ad3ab364752f3dd20b75ed6c98c3.bindPopup(popup_42940b1b43082134af39bebd46e7bc96)
+        marker_345850f9eaba42d15835849f86c774a2.bindPopup(popup_0aa03246932178b496f85bf8e363d88b)
         ;
 
         
     
-    
-            marker_7881ad3ab364752f3dd20b75ed6c98c3.bindTooltip(
-                `<div>
-                     click me!
-                 </div>`,
-                {"sticky": true}
-            );
-        
 </script>
 </html>
