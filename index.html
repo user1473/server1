@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_06fc703009f0eee656fb5bc1e72927ec {
+                #map_897970041aee4ea1c6bd58b9ca799ffc {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_06fc703009f0eee656fb5bc1e72927ec" ></div>
+            <div class="folium-map" id="map_897970041aee4ea1c6bd58b9ca799ffc" ></div>
         
 </body>
 <script>
     
     
-            var map_06fc703009f0eee656fb5bc1e72927ec = L.map(
-                "map_06fc703009f0eee656fb5bc1e72927ec",
+            var map_897970041aee4ea1c6bd58b9ca799ffc = L.map(
+                "map_897970041aee4ea1c6bd58b9ca799ffc",
                 {
                     center: [37.583587, 126.986874],
                     crs: L.CRS.EPSG3857,
-                    zoom: 30,
+                    zoom: 18,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,40 +60,54 @@
 
         
     
-            var tile_layer_db4d128460be441f452f718b082f0c83 = L.tileLayer(
+            var tile_layer_71a8a357ce1a2758ca7427157ecc0cde = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_db4d128460be441f452f718b082f0c83.addTo(map_06fc703009f0eee656fb5bc1e72927ec);
+            tile_layer_71a8a357ce1a2758ca7427157ecc0cde.addTo(map_897970041aee4ea1c6bd58b9ca799ffc);
         
     
-            var marker_345850f9eaba42d15835849f86c774a2 = L.marker(
+            var marker_83a8dd4d9c790ae707d9ecac94cd66ee = L.marker(
                 [37.583587, 126.986874],
                 {}
-            ).addTo(map_06fc703009f0eee656fb5bc1e72927ec);
+            ).addTo(map_897970041aee4ea1c6bd58b9ca799ffc);
         
     
-            var icon_bb15c4c3448941df76b662998b106512 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "green", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            var icon_f6c5c26f0d1f3fb3bd86d35186e197b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_345850f9eaba42d15835849f86c774a2.setIcon(icon_bb15c4c3448941df76b662998b106512);
+            marker_83a8dd4d9c790ae707d9ecac94cd66ee.setIcon(icon_f6c5c26f0d1f3fb3bd86d35186e197b0);
         
     
-        var popup_0aa03246932178b496f85bf8e363d88b = L.popup({"maxWidth": "100%"});
+        var popup_2205698afc5ac7eb70fcbf7f71ce17b3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_a473c9f4990a9bbd2722da938fef8099 = $(`<div id="html_a473c9f4990a9bbd2722da938fef8099" style="width: 100.0%; height: 100.0%;">choongang high school</div>`)[0];
-                popup_0aa03246932178b496f85bf8e363d88b.setContent(html_a473c9f4990a9bbd2722da938fef8099);
+                var html_8655c52551ffed62a281de8718df7c55 = $(`<div id="html_8655c52551ffed62a281de8718df7c55" style="width: 100.0%; height: 100.0%;"><h1>choongang high school</h1></div>`)[0];
+                popup_2205698afc5ac7eb70fcbf7f71ce17b3.setContent(html_8655c52551ffed62a281de8718df7c55);
             
         
 
-        marker_345850f9eaba42d15835849f86c774a2.bindPopup(popup_0aa03246932178b496f85bf8e363d88b)
+        marker_83a8dd4d9c790ae707d9ecac94cd66ee.bindPopup(popup_2205698afc5ac7eb70fcbf7f71ce17b3)
         ;
 
         
     
+    
+            marker_83a8dd4d9c790ae707d9ecac94cd66ee.bindTooltip(
+                `<div>
+                     My School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9a18d375090fc4e146c0ff88109b4d0c = L.circle(
+                [37.583587, 126.986874],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_897970041aee4ea1c6bd58b9ca799ffc);
+        
 </script>
 </html>
